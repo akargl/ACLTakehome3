@@ -2,7 +2,7 @@ spring:
   application:
     name: ACLTakehome3
   datasource:
-    url: jdbc:h2:./db/demoDb;AUTO_SERVER=TRUE
+    url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
     username: sa
   h2:
